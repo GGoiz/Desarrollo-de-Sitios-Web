@@ -1,0 +1,34 @@
+Dada 4 maquinas (m) y 4 trabajos (n). 4x4=16
+En general, el tamaño del cromosoma sera de mxn.
+
+
+dada 3 maquinas y 2 trabajos, el tamaño del cromosoma seria 
+de 6 y tendria la forma
+
+121212       3 1 
+             3 2
+
+Como se puede observar la cantidad de trabajos se repite 
+tantas veces como maquinas existan.
+
+----modulo 1-----
+Generar una poblacion inicial de manera aleatoria
+dado m y n.
+Haciendo permutaciones tomando como base uno: 11222333
+Este es el vector base y de ahi se generan las permutaciones
+
+
+Asignar valores en una columna y ordenar de mayor a menor 
+---modulo 2----
+Realizar una seleccion de parejas usando Torneo.
+
+---modulo 3----
+Realizar cruza de dos puntos
+
+----modulo 4----
+mutuacion 
+2 3 2 3 1 3 1 2 1
+= |     |
+2 3 2 3 1 3 1 2 1
+=
+2 1 3 2 3 3 1 2 1
